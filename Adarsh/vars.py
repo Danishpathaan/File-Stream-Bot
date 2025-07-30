@@ -11,7 +11,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '16846547'))
     API_HASH = str(getenv('API_HASH', '051c4c84e1e0cf701ca91595e2e492c4'))
     PICS = (environ.get('PICS','https://graph.org/file/402d7cf4415e3c806db52.jpg')).split()
-    BOT_TOKEN = str(getenv('BOT_TOKEN', '7544067449:AAEbuhHHGRoj4gff8L8kf0Y10Ay0EKDcxnU'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', ''))
     name = str(getenv('name', 'Start_File_Streambot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
